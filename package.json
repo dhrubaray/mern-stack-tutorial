@@ -1,0 +1,39 @@
+{
+    "name": "mern-stack-tutorial",
+    "version": "1.0.0",
+    "description": "MERN Stack Tutorial",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon -w server server/server.js",
+        "compile": "babel src --out-dir public",
+        "watch": "babel src --out-dir public --watch --verbose"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dhrubaray/mern-stack-tutorial.git"
+    },
+    "keywords": [
+        "MERN",
+        "mongodb",
+        "node",
+        "express",
+        "react"
+    ],
+    "author": "Dhruba ray",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dhrubaray/mern-stack-tutorial/issues"
+    },
+    "homepage": "https://github.com/dhrubaray/mern-stack-tutorial#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "immutable": "^4.0.0-rc.12"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.1",
+        "@babel/core": "^7.12.1",
+        "@babel/preset-env": "^7.12.1",
+        "@babel/preset-react": "^7.12.1"
+    }
+}
